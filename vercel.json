@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/:category", "destination": "/api/:category" },
+    { "source": "/", "destination": "/api" }
+  ]
+}
