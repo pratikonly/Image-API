@@ -1,4 +1,8 @@
 {
+  "redirects": [
+    { "source": "/male/", "destination": "/male", "permanent": false },
+    { "source": "/female/", "destination": "/female", "permanent": false }
+  ],
   "rewrites": [
     { "source": "/:category", "destination": "/api/:category" },
     { "source": "/", "destination": "/api" }
